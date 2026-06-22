@@ -10,16 +10,16 @@ print(height)
 complex_num=2+3j
 print(complex_num)
 
-#base=float(input("enter the base of the triangle: "))
-#height=float(input("enter the height of the triangle: "))
-#area=0.5*base*height
-#print("Area of the triangle is:",area)
+base=float(input("enter the base of the triangle: "))
+height=float(input("enter the height of the triangle: "))
+area=0.5*base*height
+print("Area of the triangle is:",area)
 
-#side_a=float(input("enter the side a of the triangle: "))
-#side_b=float(input("enter the side b of the triangle: "))
-#side_c=float(input("enter the side c of the triangle: "))
-#total=side_a+side_b+side_c
-#print("Sides of the triangle is:",total)
+side_a=float(input("enter the side a of the triangle: "))
+side_b=float(input("enter the side b of the triangle: "))
+side_c=float(input("enter the side c of the triangle: "))
+total=side_a+side_b+side_c
+print("Sides of the triangle is:",total)
 
 word1=len("python")
 word2=len("dragon")
