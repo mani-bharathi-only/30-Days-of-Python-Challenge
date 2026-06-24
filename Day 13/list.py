@@ -18,4 +18,5 @@ print((lambda x,y,z:x**y+z)(2,3,4))
 #Lambda inside another function
 def num(x):
     return lambda y:x**y
-print(num(2)(3))
+new=num(3)
+print(new(2))
