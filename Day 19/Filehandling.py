@@ -8,8 +8,8 @@ sam_jason='''{"Name":"Vinoth",
 file=json.loads(sam_jason)
 print(file["Name"],file["Age"],file["Skills"])
 
-#Dictionary to JSON
 
+#Dictionary to JSON
 animal={"lion":"King",
         "Elephant":"Strong"
        }
