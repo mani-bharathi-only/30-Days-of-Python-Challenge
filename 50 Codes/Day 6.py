@@ -38,5 +38,5 @@ print("Unique elements:",len(set(list4)))
 
 #30. Merge two dictionaries into one.
 dict1={1:"a",2:"b",3:"c"}
-dict2={1:"d",5:"e",6:"f"}
+dict2={4:"d",5:"e",6:"f"}
 print("Merged dictionary:",dict1.update(dict2))

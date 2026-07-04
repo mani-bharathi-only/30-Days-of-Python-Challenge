@@ -34,10 +34,7 @@ n = 11
 print(isprime(n))
 
 #15. Print all prime numbers up to N.
-
-
 N=int(input("Enter a Number: "))
-
 for i in range(1,N+1):
     if(isprime(i)):
         print(i,end=" ")

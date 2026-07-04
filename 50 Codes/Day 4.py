@@ -29,11 +29,11 @@ print("There is a total of ",a+b+c+d+e+f+g+h+i+j,"vowels in a string")
 
 #19. Count occurrences of each character (frequency dict).
 from collections import Counter
-s=input("Enter a value: ")
+s=input("Enter a value to count the frequency: ")
 co=Counter(s)
 print(dict(co))
 
 #20. Capitalize the first letter of every word.
-cap=input("Enter the words: ")
+cap=input("Enter the words to capitalize: ")
 a=cap.capitalize()
 print(a)

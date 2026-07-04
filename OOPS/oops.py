@@ -1,3 +1,5 @@
+#Classes and Objects
+
 from classes import Car
 
 ca1=Car("BMW","Red",2026)
@@ -9,7 +11,7 @@ print(ca1.year)
 ca1.start()
 
 
-
+#Class variable and Instance variable
 class stud:
 
     school="Joseph"   #class variable
